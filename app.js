@@ -44,9 +44,6 @@ res.sendFile (path.join (__dirname , './views/turing.html'))
 
 
 
-app.get('/' , (req, res) => {
-    res.send ('hola muchachos')
-})
 
 
 
