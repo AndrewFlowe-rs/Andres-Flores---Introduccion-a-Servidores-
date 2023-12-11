@@ -49,4 +49,4 @@ res.sendFile (path.join (__dirname , './views/turing.html'))
 
 
 
-app.listen ( port , ()=> console.log(`https://localhost:${port}`));
+app.listen ( port , ()=> console.log(`http://localhost:${port}`));
